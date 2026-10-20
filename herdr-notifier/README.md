@@ -31,6 +31,7 @@ Then run the app once and allow notifications for it in System Settings.
 - Tested against terminal-notifier 3.1.0 (arm64). The build prints its usage and exits 1 when
   `-message` is empty or whitespace, and exits 2 for `-`; the Herdr changes work around this by
   falling back to the notification title.
-- `RamDark.icns` is derived from the Herdr logo (`assets/logo.*` in herdrdev/herdr, Apache-2.0).
 - Related Herdr changes: https://github.com/thatsfelix/herdr/tree/fix/macos-notification-navigation
   and https://github.com/herdrdev/herdr/discussions/5422
+- `RamDark.icns` is the author's own icon choice; its provenance and license are not verified, so
+  replace it with your own `.icns` (keep `CFBundleIconFile` in sync) before redistributing.
